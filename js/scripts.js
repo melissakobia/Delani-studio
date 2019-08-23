@@ -25,6 +25,20 @@ $(document).ready(function(){
 
   });
 
+  $("img#managementImage").click(function(){
+    $("#productShow").toggle("slow");
+    $("#productHidden").toggle("slow");
+
+  });
+
+  $("#productHidden").click(function(){
+    $("#productShow").toggle("slow");
+    $("#productHidden").toggle("slow");
+
+  });
+
+
+
   
 
 
