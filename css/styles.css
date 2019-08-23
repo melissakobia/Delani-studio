@@ -84,6 +84,15 @@
   background: transparent;
 
 }
+input[type="text"]::-webkit-input-placeholder {
+  color: whitesmoke!important;
+}
+input[type="email"]::-webkit-input-placeholder {
+  color: whitesmoke!important;
+}
+textarea::-webkit-input-placeholder {
+  color: whitesmoke!important;
+}
 #socialIcons {
   text-align: center;
   padding: 5%;
