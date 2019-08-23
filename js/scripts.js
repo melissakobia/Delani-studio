@@ -13,6 +13,18 @@ $(document).ready(function(){
 
   });
 
+  $("img#developmentImage").click(function(){
+    $("#devShow").toggle("slow");
+    $("#devHidden").toggle("slow");
+
+  });
+
+  $("#devHidden").click(function(){
+    $("#devShow").toggle("slow");
+    $("#devHidden").toggle("slow");
+
+  });
+
   
 
 
