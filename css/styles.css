@@ -5,10 +5,14 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding: 5%;
+
 }
 
 #mid-text {
-  padding: 10%;
+  padding: 12%;
 
+}
+
+#mouse_click {
+  padding: 5%;
 }
