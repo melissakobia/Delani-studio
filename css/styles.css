@@ -84,3 +84,10 @@
   background: transparent;
 
 }
+#socialIcons {
+  text-align: center;
+  padding: 5%;
+}
+#footerText {
+  text-align: center;
+}
