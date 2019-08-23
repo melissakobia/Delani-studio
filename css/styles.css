@@ -53,3 +53,34 @@
 #productHidden {
   display: none;
 }
+#portfolio {
+  text-align: center;
+}
+#rowImg2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+#section4 {
+  background-image: url(../images/assets/backgrounds/c_image.jpg);
+  background-size: cover;
+
+}
+#divContact {
+  padding: 7%;
+  padding-bottom: 12%;
+  color: whitesmoke;
+  text-align: center;
+}
+#name {
+  background: transparent;
+  color: whitesmoke;
+}
+#email {
+  background: transparent;
+
+}
+#message {
+  background: transparent;
+
+}
