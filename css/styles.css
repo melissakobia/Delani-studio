@@ -24,3 +24,14 @@
   text-align: center;
   padding: 2%;
 }
+#secServices {
+  background-image: url(../images/assets/backgrounds/s_image.jpg);
+  
+}
+
+#services {
+  color: whitesmoke;
+  text-align: center;
+  padding: 8%;
+
+}
