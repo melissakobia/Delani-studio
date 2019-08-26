@@ -66,7 +66,7 @@
       <div id="whatWeDo" class="row">
         <div class="col-md-4" class="design">
           <div id="designShow">
-            <img src="images/assets/services_icons/design_icon.png" alt="pen_pic">
+            <img src="images/assets/services_icons/design_icon.png" id="designImage" alt="pen_pic">
             <h5>DESIGN</h5>
 
           </div>
@@ -84,7 +84,7 @@
 
         <div class="col-md-4" class="dev">
           <div id="devShow">
-            <img src="images/assets/services_icons/dev_icon.png" alt="code">
+            <img src="images/assets/services_icons/dev_icon.png" id="developmentImage" alt="code">
             <h5>DEVELOPMENT</h5>
           </div>
 
@@ -101,7 +101,7 @@
 
         <div class="col-md-4" class="productMgt">
           <div id="productShow">
-            <img src="images/assets/services_icons/product_icon.png" alt="list picture">
+            <img src="images/assets/services_icons/product_icon.png" id="managementImage" alt="list picture">
             <h5>PRODUCT MANAGEMENT</h5>
 
           </div>
@@ -122,49 +122,121 @@
 
       <div id="portfolio" class="container">
         <div class="container">
-          <h1>PORTFOLIO</h1>
-
           <div class="row">
-            <div id="img1" class="col-md-3">
-              <img src="images/assets/portfolio/work4.jpg" alt="" class="img-thumbnail">
+            <div class="col-md-3" id="try">
+              <div id="img1">
+                <img src="images/assets/portfolio/work4.jpg" alt="" class="img-thumbnail">
+
+
+                <div id="imgHidden1" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div id="img2">
+                <img src="images/assets/portfolio/work3.jpg" class="img-thumbnail">
+
+
+
+
+                <div id="imgHidden2" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
 
             </div>
 
-            <div id="img2" class="col-md-3">
-              <img src="images/assets/portfolio/work3.jpg" class="img-thumbnail">
+            <div class="col-md-3">
+              <div id="img3">
+                <img src="images/assets/portfolio/work2.jpg" alt="" class="img-thumbnail">
+
+
+
+                <div id="imgHidden3" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
 
             </div>
 
-            <div id="img3" class="col-md-3">
-              <img src="images/assets/portfolio/work2.jpg" alt="" class="img-thumbnail">
+            <div class="col-md-3">
+              <div id="img4">
+                <img src="images/assets/portfolio/work1.jpg" alt="" class="img-thumbnail">
 
-            </div>
 
-            <div id="img4" class="col-md-3">
-              <img src="images/assets/portfolio/work1.jpg" alt="" class="img-thumbnail">
+
+                <div id="imgHidden4" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
+
 
             </div>
 
           </div>
 
           <div class="row" id="rowImg2">
-            <div id="img5" class="col-md-3">
-              <img src="images/assets/portfolio/work5.jpg" alt="" class="img-thumbnail">
+            <div class="col-md-3">
+              <div id="img5">
+                <img src="images/assets/portfolio/work5.jpg" alt="" class="img-thumbnail">
+
+
+
+                <div id="imgHidden5" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
 
             </div>
 
-            <div id="img6" class="col-md-3">
-              <img src="images/assets/portfolio/work6.jpg" class="img-thumbnail">
+            <div class="col-md-3">
+              <div id="img6">
+                <img src="images/assets/portfolio/work6.jpg" class="img-thumbnail">
+
+
+
+                <div id="imgHidden6" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
+
 
             </div>
 
-            <div id="img7" class="col-md-3">
-              <img src="images/assets/portfolio/work7.jpg" alt="" class="img-thumbnail">
+            <div class="col-md-3">
+              <div id="img7">
+                <img src="images/assets/portfolio/work7.jpg" alt="" class="img-thumbnail">
+
+
+
+                <div id="imgHidden7" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
+
 
             </div>
 
-            <div id="img8" class="col-md-3">
-              <img src="images/assets/portfolio/work8.jpg" class="img-thumbnail" alt="">
+            <div class="col-md-3">
+              <div id="img8">
+                <img src="images/assets/portfolio/work8.jpg" class="img-thumbnail" alt="">
+
+
+                <div id="imgHidden8" class="hidden">
+                  <h3>BAILEY WONGER</h3>
+
+                </div>
+              </div>
 
             </div>
 
@@ -183,20 +255,21 @@
       <div class="container" id="divContact">
         <h1>CONTACT US</h1>
         <div class="container">
-          <form>
+          <form id="contactForm" class="was-validated">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" id="name" placeholder="Name">
+                <input type="text" id="name" class="form-control" placeholder="Name">
               </div>
 
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" id="email" placeholder="Email" style="color: white;">
+                <input type="email" id="email" class="form-control" placeholder="Email" style="color: white;">
               </div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" id="message" rows="5" placeholder="Your message here .."></textarea>
+              <textarea id="message" class="form-control" rows="7" placeholder="Your message here .."></textarea>
             </div>
+            <button type="submit" id="btnSubmit" class="btn btn-warning">Submit</button>
           </form>
 
         </div>
@@ -222,6 +295,7 @@
       </div>
       <div class="container" id="footerText">
         <h6>DELANI STUDIO</h6>
+        <br>
         <h6>2019</h6>
 
       </div>
