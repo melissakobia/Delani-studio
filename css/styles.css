@@ -100,3 +100,244 @@ textarea::-webkit-input-placeholder {
 #footerText {
   text-align: center;
 }
+.portfolioImg{
+  width:300px;
+  padding-left: 20px;
+}
+
+#imgHidden2 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden2 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img2:hover {
+  background: transparent; 
+}
+/* {
+  position: absolute;
+  border:2px;
+  left:70px;
+  bottom: 10px;
+  width: 150px;
+  height:150px;
+  width: 150px;
+} */
+
+#imgHidden3 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden3 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img3:hover {
+  background: transparent; 
+}
+#imgHidden4 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden4 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img4:hover {
+  background: transparent; 
+}
+#imgHidden5 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden5 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img5:hover {
+  background: transparent; 
+}
+#imgHidden1 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden1 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img1:hover {
+  background: transparent; 
+}
+#imgHidden6 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden6 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img6:hover {
+  background: transparent; 
+}
+#imgHidden7 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden7 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img7:hover {
+  background: transparent; 
+}
+
+#imgHidden8 {
+  display: none;
+  font-size:20px;
+  background-color:rgba(255, 255, 255, 0.2); 
+  border-color:whitesmoke;
+  color:white;
+  font-size:30px;
+  border:3px solid;
+  position: absolute;
+  left: 70px;
+  width: 150px;
+  height:150px;
+  top: 10px;
+  bottom: 10px;
+
+  text-align: center;
+  
+}
+#imgHidden8 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#img8:hover {
+  background: transparent; 
+}
+
