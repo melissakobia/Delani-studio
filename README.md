@@ -30,7 +30,7 @@ As a user of the website you will be able to:
 
 ### Installing
 
-*** To view the app.Visit -> 
+*** To view the app.Visit -> https://melissakobia.github.io/Delani-studio/
 * Step 1:
 Clone this repo: git clone https://github.com/melissakobia/Delani-studio
 * Step 2:
