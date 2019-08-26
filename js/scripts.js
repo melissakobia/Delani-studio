@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $("#btnSubmit").click(function (event) {
-    event.preventDefault();
+  
 
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var message = $("#message").val();
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#message").val();
 
     // if ($('#name').val() == '') {
     //   alert('please fill the form');
@@ -22,11 +22,11 @@ $(document).ready(function () {
     ' '
 
 
-    if ($("#name").val === "" || $("#email").val === "" || $("#message").val === "") {
+    if ($("input#name").val() == "" || $("input#email").val() == "" || $("textarea#message").val() == "") {
       alert("Fill all the spaces");
 
     }
-    else if ($("#name").val === !isNaN || $("#email").val === !isNaN || $("#message").val === !isNaN) {
+    else if ($("input#name").val() === !isNaN || $("input#email").val() === !isNaN || $("textarea#message").val() === !isNaN) {
       alert("Invalid Input");
 
     }
@@ -34,7 +34,12 @@ $(document).ready(function () {
       alert("Dear " + name + " we have recieved your message. Thank you for reaching out to us.");
 
     }
+    event.preventDefault();
+
+
   });
+
+ 
 
 
 
